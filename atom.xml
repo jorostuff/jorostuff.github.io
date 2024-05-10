@@ -1,26 +1,49 @@
----
-layout: null
----
-
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
- <title>{{ site.title }}</title>
- <link href="{{ site.url }}{{ site.baseurl }}/atom.xml" rel="self"/>
- <link href="{{ site.url }}{{ site.baseurl }}/"/>
- <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>{{ site.url }}</id>
+ <title>Joro (@jorostuff)</title>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <link href="http://localhost:4000/"/>
+ <updated>2024-05-10T20:12:58+03:00</updated>
+ <id>http://localhost:4000</id>
  <author>
-   <name>{{ site.author.name }}</name>
-   <email>{{ site.author.email }}</email>
+   <name>jorostuff</name>
+   <email>jorostuffmail@gmail.com</email>
  </author>
 
- {% for post in site.posts %}
+ 
  <entry>
-   <title>{{ post.title | xml_escape }}</title>
-   <link href="{{ site.url }}{{ site.baseurl }}{{ post.url }}"/>
-   <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>{{ site.url }}{{ post.id }}</id>
-   <content type="html">{{ post.content | xml_escape }}</content>
+   <title>My thoughts on trade, companies, and the economy</title>
+   <link href="http://localhost:4000/posts/firstpost"/>
+   <updated>2002-01-01T00:00:00+02:00</updated>
+   <id>http://localhost:4000/posts/firstpost</id>
+   <content type="html">&lt;h4 id=&quot;satisfying-wants-and-needs&quot;&gt;Satisfying wants and needs&lt;/h4&gt;
+
+&lt;p&gt;Imagine you and I met up thousands of years ago. I&apos;ve spent my day gathering a ton of berries but forgot to find a good shelter from the rain tonight, and you&apos;ve spent your day building an extra hut but didn&apos;t have the time to find dinner. So you let me sleep in your extra hut while I give you some of my berries. Trade made us better off, and what a horrible night it would have been if we didn&apos;t trade. Human history is full of scenarios like this where people exchange things with each other, both as individuals and as tribes.&lt;/p&gt;
+
+&lt;p&gt;But why do we trade? Because we want something the other person has, and to get it, we have to give them something they want in return. Trade would not happen if I didn&apos;t want your thing more than mine and you didn&apos;t want my thing more than yours. We value things differently and have different things, so trading makes sense.&lt;/p&gt;
+
+&lt;p&gt;And why do we want things? To satisfy our wants and needs. Things, such as huts and berries, are just the medium through which our desires, such as security and hunger, are met. It may seem like we want the other person&apos;s thing, but what we actually care about is what that thing can do for us and how it can fulfill our desire. If a new thing comes along and satisfies a certain want or need much better, we&apos;ll abandon the old thing in a minute. People deviate toward satisfying their desires as best as possible.&lt;/p&gt;
+
+&lt;p&gt;And why do we want to satisfy our wants and needs? Because that&apos;s how evolution and the environment have shaped our minds. If your brain didn&apos;t fire in the right way to make you crave my berries, you probably would have starved that night, and evolution has long prevented that by genetically making the right neuron connections develop in your brain so you can anticipate hunger and seek food. Of course, not all of our wants have an evolutionary origin, some are due to environmental factors, some have little to do with our need to survive, but the important thing to remember is that through trade of things (including services), we seek to satisfy our wants and needs.&lt;/p&gt;
+
+&lt;h4 id=&quot;trade-in-todays-world&quot;&gt;Trade in today’s world&lt;/h4&gt;
+
+&lt;p&gt;But we no longer exchange apples for goats with the villager next door. Trade in today&apos;s world is not as direct as it was thousands of years ago. We have money, specialization, and companies, all of which obscure the fact that we simply make things for each other. Sure, machines are increasingly helping us create products and provide services, and much of what we know and have has been left to us by previous generations, but the world continues to depend on all of us. When most people finish their education, they think they need to get a job and make money, but what life actually asks of them is to do things for other people so other people can do things for them.&lt;/p&gt;
+
+&lt;p&gt;In one way or another, we&apos;re all a part of this global production-consumption machine. Once you strip away all the layers, it&apos;s just people satisfying the wants and needs of each other by making things and providing services. Such people are usually organized in groups (called companies) where each person contributes in their own way (called a specialized job) and trades happen indirectly through a medium of exchange (called money).&lt;/p&gt;
+
+&lt;h4 id=&quot;more-about-companies&quot;&gt;More about companies&lt;/h4&gt;
+
+&lt;p&gt;A company is a group of people who make things (products and services) and trade them for money with other people (customers). Those products and services have to satisfy the wants and needs of the customers if the company is to get money for them. People are not going to buy things they don&apos;t want. Companies that try to get money without fulfilling people&apos;s desires are doomed to fail.&lt;/p&gt;
+
+&lt;p&gt;But why do companies want to make money in the first place? Since money is the thing you get to get the things you actually want, the people in a company want money to trade it for things that satisfy their own wants and needs. Those things are usually made by other companies, and what ends up happening is companies making things for each other and using money as a medium to exchange them.&lt;/p&gt;
+
+&lt;p&gt;But making products that satisfy people&apos;s wants and needs is not enough for a company to make money. For example, the market for telegraphs is currently non-existent even though the telegraph is useful and satisfies many wants and needs. That&apos;s because there are products that do what the telegraph does but much better. Inferior products fade away over time because people are buying alternatives. People have limited money and deviate towards getting the things that best fulfill their desires. Because of that, and because products exist in a competitive environment, a company can trade its product for money sustainably and profitably only if there are no better alternatives around.&lt;/p&gt;
+
+&lt;p&gt;But a product has to be &lt;i&gt;much&lt;/i&gt; better than the alternatives (as opposed to equally good or slightly better) because people are used to the way they’re doing things and getting them to change requires an extremely good product. The alternatives of a product are all the other ways its customers could satisfy their wants and needs that the product aims to fulfill. Who the &quot;competitors&quot; of a product are is often a matter of framing, but remember that fundamentally, products and services compete on wants and needs.&lt;/p&gt;
+
+&lt;p&gt;But what good is it to have a superior product if no one knows about it? If people don&apos;t know about a product, they&apos;re not going to trade money for it. Occasionally, they might even need to be reminded about it.&lt;/p&gt;
+</content>
  </entry>
- {% endfor %}
+ 
 </feed>
