@@ -7,17 +7,14 @@
 }
 
 body {
-	font-family: system-ui, sans-serif;
+	font-family: Arial, sans-serif;
 	-webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
 	line-height:1.5;
 	font-size: 1rem;
 	color: rgb(22, 23, 26);
 	zoom: 1.2;
-}
-
-nav ul {
-    border-right: 1px solid #edf2f7;
+	background: hsl(210 40% 96.1%);
 }
 
 a {
@@ -44,7 +41,7 @@ pre {
 }
 
 .meta {
-	margin: 2rem 0;
+	margin: 2rem 0 0 0;
 }
 
 code,pre {
@@ -81,16 +78,30 @@ header {
 	position:relative;
 }
 
+header .joke {
+	position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: .7rem;
+    color: #c5c5c5;
+    text-align: center;
+}
+
 .posts ul {
 	list-style:none;
 }
 
-
 .pfp {
 	border-radius: 100%;
-	width: 4rem;
+	width: 6rem;
+	border: 2px dashed black;
+	padding: 0.1rem;
 }
 
+.pfp-hider {
+	display: none !important;
+	margin-bottom: 1rem;
+}
 
 .responsive-video {
     position: relative;
@@ -108,13 +119,17 @@ header {
 	border-radius: 0.5rem;
 }
 
+.no-print {
+	text-align: center;
+	border-right: 1px solid #ebf0f5;
+}
 
 header ul {
 	list-style: none;
 }
 
 header a {
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 header a.active {
@@ -175,6 +190,7 @@ ul.listed {
 
 .posts li .tags {
 	margin-left: 0.4rem;
+	text-decoration: none;
 }
 
 .posts li .tags a {
@@ -184,13 +200,13 @@ ul.listed {
     color: #515151;
     font-size: 0.8rem;
 	margin-right: 0.3rem;
+	text-decoration: none;
 }
 
 .posts li a, .posts li div, .projects li a {
 	white-space:nowrap;
 	overflow:hidden;
 	text-overflow:ellipsis;
-	text-decoration: none;
 }
 
 .posts li time, .projects li time {
@@ -213,6 +229,11 @@ main {
 	max-width:60rem;
 	margin: 0 auto 0 auto;
 	padding:1rem;
+	background: white;
+	border: 1px solid hsl(214.3 31.8% 91.4%);
+	border-radius: 0.5rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
 }
 
 @media screen and (max-width: 45rem ) {
@@ -232,10 +253,27 @@ main {
 		border-right: 0px;
 	}
 	.pfp {
-		display: none;
+		display: none !important;
 	}
+	.pfp-hider {
+		display: block !important;
+	}
+	.no-print {
+		border-right: 0 !important;
+	}
+	header .joke {
+        display: none !important;
+    }
 	.photos ul {
 		margin-top: 0.5rem;
+	}
+	main {
+		margin: 0 !important;
+		border: 0 !important;
+		border-radius: 0 !important;
+	}
+	body {
+		background: white !important;
 	}
 }
 
@@ -254,8 +292,7 @@ figcaption {
 
 @media print
 {    
-    .no-print, .no-print *
-    {
+    .no-print, .no-print * {
         display: none !important;
     }
 }
