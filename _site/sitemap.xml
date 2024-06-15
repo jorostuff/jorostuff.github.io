@@ -2,11 +2,11 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://localhost:4000/projects</loc>
-<lastmod>2024-06-15T17:44:14+03:00</lastmod>
+<lastmod>2024-06-15T21:12:57+03:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/writings</loc>
-<lastmod>2024-06-15T17:44:14+03:00</lastmod>
+<lastmod>2024-06-15T21:12:57+03:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/posts/firstpost</loc>
@@ -73,6 +73,14 @@
 <lastmod>2023-10-24T00:00:00+03:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/projects/roblox-analysis</loc>
+<lastmod>2023-11-02T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/projects/game-design-fine-tune</loc>
+<lastmod>2024-04-15T00:00:00+03:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/</loc>
 </url>
 <url>
@@ -89,5 +97,8 @@
 </url>
 <url>
 <loc>http://localhost:4000/tag/roblox/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/data/</loc>
 </url>
 </urlset>
