@@ -2,7 +2,7 @@
    <a href="/">
       <img src="/assets/pfp.jpg" alt="Profile Picture" class="pfp">
    </a>
-   <nav role="navigation" aria-hidden="true">
+   <nav role="navigation" class="nav-links" aria-hidden="true">
       <ul>
          {% for item in site.data.navigation.links %}
             <li><a href="{{ item.url }}"
@@ -15,5 +15,20 @@
          {% endfor %}
       </ul>
    </nav>
-   <!-- <p class="joke">imagine if i put an ad here 😂</p> -->
+   <div class="socials">
+      <li title="X">
+          <a href="https://twitter.com/jorostuff" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+      </li>
+      <li title="Discord" style="cursor: pointer;" onclick="alert('My Discord username is jorostuff')">
+          <i class="fa-brands fa-discord"></i>
+      </li>
+      <li title="GitHub">
+          <a href="https://github.com/jorostuff" target="_blank"><i class="fa-brands fa-github"></i></a>
+      </li>
+      <!--
+      <li title="RSS" style="display: inline-block;">
+          <a href="/atom.xml" target="_blank"><i class="fas fa-rss"></i></a>
+      </li>
+      -->
+  </div>
 </header>

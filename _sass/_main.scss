@@ -79,13 +79,20 @@ header {
 	position:relative;
 }
 
-header .joke {
-	position: absolute;
-    bottom: 0;
-    left: 0;
-    font-size: .7rem;
-    color: #c5c5c5;
-    text-align: center;
+header .socials {
+	margin-top: 1.5rem;
+}
+
+header .socials li {
+	display: inline-block;
+	margin: 0 0.3rem 0 0.3rem;
+}
+
+header .nav-links {
+	border-top: 1px solid #ebf0f5;
+    border-bottom: 1px solid #ebf0f5;
+	padding: 0.5rem 0 0.5rem 0;
+	margin: 1rem 0 1rem 0;
 }
 
 .posts ul {
@@ -245,11 +252,6 @@ main {
 	.logo {
 		padding-bottom: 1rem;
 	}
-	header ul {
-		border-bottom: 1px solid #edf2f7;
-		padding-bottom: 2rem;
-		text-align: center;
-	}
 	nav ul {
 		border-right: 0px;
 	}
@@ -261,10 +263,20 @@ main {
 	}
 	.no-print {
 		border-right: 0 !important;
+		border-bottom: 1px solid #ebf0f5 !important;
+		margin-bottom: 1rem;
 	}
-	header .joke {
-        display: none !important;
-    }
+	header .nav-links {
+		border: 0;
+		padding: 0;
+		margin: 0;
+	}
+	header .nav-links ul {
+		text-align: center;
+	}
+	header .socials {
+		margin: 1rem 0 0.5rem 0;
+	}
 	.photos ul {
 		margin-top: 0.5rem;
 	}
