@@ -4,7 +4,7 @@ title: Ultimate Fishing Simulator
 tags: [roblox]
 ---
 
-<p>Ultimate Fishing Simulator is a Roblox game I made that got roughly 8,000,000 game visits.</p>
+<p>Ultimate Fishing Simulator is a Roblox game I made that got roughly 35,000,000 game visits.</p>
 
 [Play it here!](https://www.roblox.com/games/13192299764/Ultimate-Fishing-Simulator){:target="_blank"}{:rel="noopener noreferrer"}
 

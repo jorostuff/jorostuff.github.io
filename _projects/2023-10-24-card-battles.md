@@ -4,7 +4,7 @@ title: Card Battles
 tags: [roblox]
 ---
 
-<p>Card Battles is a Roblox game I made that got roughly 40,000,000 game visits. It's by far my most successful Roblox game.</p>
+<p>Card Battles is a Roblox game I made that got roughly 100,000,000 game visits. It's by far my most successful Roblox game.</p>
 
 [Play it here!](https://www.roblox.com/games/12512492069/Card-Battles){:target="_blank"}{:rel="noopener noreferrer"}
 
